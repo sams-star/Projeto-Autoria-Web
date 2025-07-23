@@ -9,6 +9,7 @@ header {
     padding: 20px;
     text-align: center;
     color: #111;
+    font-family:'Franklin Gothic Medium';
 }
 
 .perfil-container {
@@ -24,7 +25,7 @@ header {
 .imagem img {
     width: 250px;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 70%;
     object-fit: cover;
     background-color: #e0e0e0;
     position: relative;
@@ -51,17 +52,24 @@ header {
     cursor: pointer;
     font-size: 25px;  
 }
-#matheus {
+.info {
     text-align: center;
     position: relative;
     bottom: 300px;
     right: 300px;
 }
 #theteus {
-    text-align: right;
+    padding-bottom: 400px;
     position: relative;
-    bottom: 300px;
-    left: 250px;
-    
+    left: 380px;
+    bottom: 19rem;
+    font-family: 'Courier New';
 }
-
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgb(79, 109, 71);
+    font-style: italic;
+  }
+  
