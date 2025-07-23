@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #9ebb98;
+    padding: 20px;
+    text-align: center;
+    color: #111;
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.imagem img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #e0e0e0;
+}
+
+.info {
+    text-align: left;
+    font-size: 18px;
+}
+
+.info p {
+    margin: 10px 0;
+}
+
+.botao-resumo {
+    margin-top: 20px;
+    padding: 150px 300px;
+    background-color: #c0d198;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    
+}
