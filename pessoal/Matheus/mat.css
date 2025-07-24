@@ -9,23 +9,26 @@ header {
     padding: 20px;
     text-align: center;
     color: #111;
-    font-family:'Franklin Gothic Medium';
+     font-family:'Franklin Gothic Medium';
 }
+
 
 .perfil-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 20px;
+    align-items: flex-start;
+    padding: 40px ;
     gap: 40px;
-    flex-wrap: wrap;
-    
+
+}
+
+.imagem{
+    flex-shrink: 0;
 }
 
 .imagem img {
-    width: 250px;
-    height: 250px;
-    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     object-fit: cover;
     background-color: #e0e0e0;
     position: relative;
@@ -50,21 +53,11 @@ header {
     font-weight: bold;
     border: none;
     cursor: pointer;
-    font-size: 25px;  
-}
-#matheus {
-    text-align: center;
+    font-size: 25px;
     position: relative;
-    bottom: 300px;
-    right: 300px;
 }
-#theteus {
-    padding-bottom: 400px;
-    position: relative;
-    left: 380px;
-    bottom: 19rem;
-    font-family: 'Courier New';
-}
+
+
 footer {
     text-align: center;
     padding: 20px;
@@ -75,4 +68,8 @@ footer {
   
   table{
     position: center;
+    image-orientation: from-image;
+    width: 200px;
+    height: 200px;
+
   }
