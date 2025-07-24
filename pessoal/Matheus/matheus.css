@@ -36,6 +36,7 @@ header {
 .info {
     text-align: left;
     font-size: 18px;
+    text-align: center;
 }
 
 .info p {
@@ -50,7 +51,8 @@ header {
     font-weight: bold;
     border: none;
     cursor: pointer;
-    font-size: 25px;  
+    font-size: 25px;
+   text-align: center;  
 }
 #matheus {
     text-align: center;
@@ -73,6 +75,23 @@ footer {
     font-style: italic;
   }
   
+  #insta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #e0e0e0;
+    text-align:end;
+  }
+
+  #celta{
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #e0e0e0;
+    text-align:end;
+  }
+  
   table{
     position: center;
+    image-orientation: from-image;
+    width: 200px;
+    height: 200px;
   }
