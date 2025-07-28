@@ -34,13 +34,8 @@ header {
 }
 
 .info {
-    text-align: left;
-    font-size: 18px;
     text-align: center;
-}
-
-.info p {
-    margin: 10px 0;
+    font-size: 20px; 
 }
 
 .botao-resumo {
@@ -54,6 +49,7 @@ header {
     font-size: 25px;
    text-align: center;  
 }
+
 #matheus {
     text-align: center;
     position:fixed;
@@ -95,3 +91,6 @@ font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     height: 200px;
   }
+img {
+    border-radius: 05%;
+}

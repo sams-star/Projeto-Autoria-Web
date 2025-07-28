@@ -84,3 +84,6 @@ font-family: Arial, Helvetica, sans-serif;
     color: #e0e0e0;
     text-align:end;
   }
+  img {
+    border-radius: 05%;
+}

@@ -22,6 +22,16 @@ header {
     
 }
 
+.perfil-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+
 .imagem img {
     width: 250px;
     height: 250px;
@@ -83,4 +93,7 @@ font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #e0e0e0;
     text-align:end;
+  }
+  img{
+    border-radius: 5%;
   }

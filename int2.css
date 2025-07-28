@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #9ebb98;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.titulo {
+  padding: 12px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium';
+  color: #111;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+
+.integrante {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  padding: 15px 30px;
+  font-size: 80px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.integrante:hover {
+  background-color: #c7d4c1;
+  color: #333;
+}
+
+.icone {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ccc;
+
+}
+
+.icone.maria-eduarda {
+  background-image: url('../../imagens/Integrantes/M. Eduarda/foto de perfil duda.jpg');
+}
+
+.icone.iasmim {
+  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Yasmim/foto deperfil de Yasmim.jpg');
+}
+
+.icone.igor {
+  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Igor/igor lendo.jpg');
+}
+
+.icone.mariana {
+  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Mary/mary pare.jpg');
+}
+
+.icone.matheus {
+  background-image: url('../../imagens/Integrantes/Matheus/Foto de perfil de matheus.jpg');
+}
+
+
+.icone.loyvian {
+  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Loyvian/lucas\ perfil.jpg');
+}
+
+.icone.rafael {
+  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Rafael/Rafael\ foto\ de\ perfil.jpg');
+}
+
+
+.icone.rebeca {
+  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Rebeca/Rebeca\ fot\ de\ perfil.jpg');
+}
+
+
+.icone.samela {
+  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Samela/samela\ foto\ de\ perfil.jpg');
+}
+
+
+.icone.sophia {
+  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Samela/samela\ foto\ de\ perfil.jpg');
+}
+
+
+.icone.ythale {
+  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Ythale/');
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: rgb(79, 109, 71);
+  font-style: italic;
+}
+
+#insta, #celta {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #e0e0e0;
+  display: block;
+  margin-top: 8px;
+}

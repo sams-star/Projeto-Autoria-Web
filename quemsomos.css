@@ -74,9 +74,14 @@ font-family: Arial, Helvetica, sans-serif;
     text-align:end;
   }
   
-  .lista{
+  .Lista{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 40px;
     color: black;
+  }
+
+  #iconico{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
   }
