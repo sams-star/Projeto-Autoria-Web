@@ -43,7 +43,8 @@ header {
 }
 
 .botao-resumo {
-    padding: 50px 250px; 
+    padding: 50px 100px; 
+    width: 200;
     background-color: #c0d198;
     color: white;
     font-weight: bold;
@@ -52,7 +53,6 @@ header {
     font-size: 30px;
     text-align: center;     
 }
-
 
 footer {
     width: 100%;
