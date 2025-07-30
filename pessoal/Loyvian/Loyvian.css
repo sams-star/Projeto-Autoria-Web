@@ -24,9 +24,9 @@ header {
 }
 
 .imagem img {
-    width: 10px;
-    height: 10px;
-    border-radius: 70%;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
     object-fit: cover;
     background-color: #e0e0e0;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);

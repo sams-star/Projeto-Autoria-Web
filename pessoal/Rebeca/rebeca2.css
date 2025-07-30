@@ -39,7 +39,6 @@ header {
 .info{
     font-family: 'Courier New', monospace;
     font-size: 18px;
-    max-width: 600px;
 }
 
 .botao-resumo {
@@ -50,10 +49,10 @@ header {
     border: none;
     cursor: pointer;
     font-size: 25px;
-    text-align: center;
+    text-align: justify;
     margin: 0 auto;   
     max-width: 90vw;  
-    width: auto;      
+    width: 1000px;      
 }
 
 
