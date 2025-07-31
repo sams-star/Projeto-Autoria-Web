@@ -5,7 +5,6 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
   background-color: #f0f4f0;
   min-height: 100vh;
   display: flex;
@@ -72,11 +71,11 @@ header {
 }
 
 .icone.iasmim {
-  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Yasmim/foto deperfil de Yasmim.jpg');
+  background-image: url('../../imagens/Integrantes/Yasmim/foto deperfil de Yasmim.jpg');
 }
 
 .icone.igor {
-  background-image: url('../Projeto-Autoria-Web/imagens/Integrantes/Igor/igor lendo.jpg');
+  background-image: url('../../Projeto-Autoria-Web/imagens/Integrantes/Igor/igor lendo.jpg');
 }
 
 .icone.mariana {
