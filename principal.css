@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.cabecalho {
+  background-color: #a5b78b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  position: fixed;
+  left: 20px;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.titulo {
+  font-size: 80px;
+  margin: 0;
+  font-family: 'Georgia', serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #d9d0b0;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.item {
+  padding: 15px 25px;
+  font-weight: bold;
+  color: #333;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: bold;
+  color: #333;
+  flex: 1;
+  
+}
+
+.item.centro {
+  background-color: #c0d198;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+  font-weight: normal;
+  
+}
+
+.frase {
+  background-color: #c0d198;
+  margin: 20px auto;
+  padding: 8px 20px;
+  width: fit-content;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+video {
+  width: 90%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.frase-emotiva {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: black;
+  font-size: 13px;
+  font-family: 'courier';
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: rgb(74, 121, 62);
+  font-style: italic;
+  }
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
