@@ -46,6 +46,7 @@ body {
   font-weight: bold;
   color: #333;
   flex: 1;
+  text-align: center;
 }
 
 a {
@@ -95,17 +96,31 @@ video {
   border-radius: 5px;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-  background-color: rgb(74, 121, 62);
-  font-style: italic;
-  }
-
 img {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
   border-radius: 10px;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgb(79, 109, 71);
+    font-style: italic;
+  }
+  
+  #insta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #e0e0e0;
+    text-align:end;
+    text-decoration: underline;
+  }
+
+  #celta{
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #e0e0e0;
+    text-align:end;
+    text-decoration: underline;
+  }
+  
+ 
