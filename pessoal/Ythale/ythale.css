@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    font-family: Georgia, serif;
-    background-color: #eeeedc;
+    background-color: #ffffff;
 }
 
 
@@ -31,7 +30,6 @@ header {
     height: 250px;
     border-radius: 70%;
     object-fit: cover;
-    background-color: #e0e0e0;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
