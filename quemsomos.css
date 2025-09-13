@@ -9,6 +9,7 @@ body {
   background-color: #f0f4f0;
   min-height: 100vh;
   flex-direction: column;
+  cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='16'>⭐</text></svg>") 8 8, auto;
 }
 
 
@@ -38,7 +39,6 @@ header {
     color: white;
     font-weight:normal;
     border: none;
-    cursor: pointer;
     font-size: 35px;
    text-align:justify;  
 }
