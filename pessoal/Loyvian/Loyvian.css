@@ -44,7 +44,8 @@ header {
     border: none;
     font-size: 25px;
     text-align: justify; 
-    width: 1000px;    
+    width: 1000px;  
+    cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='16'>🙄</text></svg>") 8 8, auto    
 }
 
 
